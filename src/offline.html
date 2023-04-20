@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png">
-    <title>PWA</title>
+    <title>Article</title>
 </head>
 
 <body>
-    <h1>PWA Offline</h1>
+    <h1>Articles <b style="color: red;">hors ligne</b></h1>
 
     <div id="posts"></div>
 
-    <script>
-        let posts = localStorage.getItem("posts");
-        document.querySelector("#posts").innerHTML = posts;
-    </script>
+    <script src="./posts.js"></script>
 
 </body>
 
